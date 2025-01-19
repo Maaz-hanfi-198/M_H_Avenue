@@ -20,7 +20,7 @@ export function Login(){
                     username.value = ''; password.value = '';
                     v = 1;
                     setTimeout(() => {
-                        window.location.href = `../../home/home.html?index=${i}`;
+                        window.location.href = `../home/home.html?index=${i}`;
                     }, 2000);
                     break;
                 }

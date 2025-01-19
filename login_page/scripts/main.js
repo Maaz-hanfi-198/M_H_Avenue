@@ -9,22 +9,22 @@ let html = '';
 export function loadPage(pageData){
     html = `
     <div class="Login_account">
-        <div class="logo"><img class="logo_image" src="../../images/M_h_logo.png" alt=""></div>
+        <div class="logo"><img class="logo_image" src="../images/M_h_logo.png" alt=""></div>
         <div class="content">
             <h1 class="login_h1">${pageData.h1}</h1>
             <p class="Login_para">${pageData.para}</p>
             <div class="social">
                 <div class="social_logo">
-                    <a href="#"><img src="../../images/facebook.jpg" alt="facebook"></a>
+                    <a href="#"><img src="../images/facebook.jpg" alt="facebook"></a>
                 </div>
                 <div class="social_logo">
-                    <a href="#"><img src="../../images/google+.png" alt="google"></a>
+                    <a href="#"><img src="../images/google+.png" alt="google"></a>
                 </div>
                 <div class="social_logo">
-                    <a href="#"><img src="../../images/linkdin.png" alt="linkdin"></a>
+                    <a href="#"><img src="../images/linkdin.png" alt="linkdin"></a>
                 </div>
             </div>
-            <div class="or"><img src="../../images/or_image.png" alt=""></div>
+            <div class="or"><img src="../images/or_image.png" alt=""></div>
             <div class="inputs">
                 <input type="text" class="js_input_username" placeholder=${pageData.p1 || 'Username'}>
                 <input type="password" class="js_input_password" placeholder=${pageData.p3 || 'password'}>
